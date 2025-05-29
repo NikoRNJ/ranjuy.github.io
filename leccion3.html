@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Lección 3: Variables y Tipos de Datos - Conviértete en Programador
+    </title>
+    <link rel="stylesheet" href="../../css/styles.css" />
+  </head>
+  <body>
+    <div class="module-page active">
+      <div class="nav-header">
+        <button class="back-btn" onclick="goHome()">← Volver al Inicio</button>
+        <div style="color: white; font-weight: 600">
+          Módulo 1: Fundamentos de Lógica - Lección 3
+        </div>
+      </div>
+
+      <div class="content-container">
+        <div class="module-header">
+          <h1>💾 Lección 3: Variables y Tipos de Datos</h1>
+          <p style="color: #666; font-size: 1.1rem">
+            Almacenando y gestionando información en tus programas.
+          </p>
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 30%"></div>
+            <!-- Progreso Lección 3 -->
+          </div>
+          <p style="color: #888; font-size: 0.9rem">Progreso: Lección 3 de 3</p>
+        </div>
+
+        <!-- Contenido de la Lección 3 -->
+        <div class="lesson-content">
+          <h2>¿Qué es una Variable?</h2>
+          <p>
+            Imagina una variable como una caja con una etiqueta. Puedes guardar
+            algo dentro de esa caja (un valor) y la etiqueta (el nombre de la
+            variable) te ayuda a encontrarla y saber qué contiene. Formalmente,
+            una variable es un espacio en la memoria de la computadora donde se
+            almacena un valor que puede cambiar durante la ejecución de un
+            programa.
+          </p>
+
+          <h3>¿Para qué sirven las Variables?</h3>
+          <ul>
+            <li>
+              <strong>Almacenar datos:</strong> Guardar números, texto,
+              resultados de cálculos, etc.
+            </li>
+            <li>
+              <strong>Reutilizar información:</strong> Usar el mismo valor en
+              múltiples partes de tu programa sin tener que escribirlo cada vez.
+            </li>
+            <li>
+              <strong>Hacer programas flexibles:</strong> Permitir que los
+              programas se adapten a diferentes entradas o situaciones.
+            </li>
+          </ul>
+
+          <div class="highlight-box">
+            <h3>💡 Concepto Clave</h3>
+            <p>
+              <strong>Variable:</strong> Un contenedor con nombre para almacenar
+              datos que pueden variar.
+            </p>
+          </div>
+
+          <h3>Tipos de Datos Comunes</h3>
+          <p>
+            Los datos que guardamos en las variables pueden ser de diferentes
+            tipos. Los más comunes son:
+          </p>
+          <ul>
+            <li>
+              <strong>Números (Enteros y Reales):</strong> Para representar
+              cantidades numéricas.
+              <ul>
+                <li>
+                  Enteros: Números completos sin decimales (ej: 5, -10, 0).
+                </li>
+                <li>
+                  Reales (o Flotantes): Números con decimales (ej: 3.14, -0.5,
+                  2.718).
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Cadenas de Texto (Strings):</strong> Para representar
+              texto. Se suelen escribir entre comillas. (ej: "Hola Mundo",
+              "Ana", "123 Main St").
+            </li>
+            <li>
+              <strong>Booleanos (Lógicos):</strong> Para representar valores de
+              verdad, es decir, verdadero o falso. (ej: verdadero, falso).
+            </li>
+          </ul>
+
+          <h3>Declaración y Uso de Variables (Ejemplo en Pseudocódigo)</h3>
+          <p>
+            El pseudocódigo es una forma de escribir algoritmos usando un
+            lenguaje simple y parecido al humano, antes de traducirlo a un
+            lenguaje de programación específico.
+          </p>
+
+          <div class="example-box">
+            <strong>Ejemplo en Pseudocódigo:</strong><br />
+            <pre>
+PROCESO CalculoSimple
+  DEFINIR edad COMO ENTERO
+  DEFINIR nombre COMO CADENA
+  DEFINIR esEstudiante COMO LOGICO
+
+  // Asignar valores a las variables
+  edad <- 25
+  nombre <- "Carlos"
+  esEstudiante <- verdadero
+
+  // Mostrar los valores
+  ESCRIBIR "Nombre: ", nombre
+  ESCRIBIR "Edad: ", edad
+  ESCRIBIR "Es estudiante?: ", esEstudiante
+
+  // Usar variables en un cálculo
+  DEFINIR proximoAnio COMO ENTERO
+  proximoAnio <- edad + 1
+  ESCRIBIR "El próximo año tendrás: ", proximoAnio
+FINPROCESO
+            </pre>
+          </div>
+
+          <p>En este ejemplo:</p>
+          <ul>
+            <li>
+              <code>DEFINIR edad COMO ENTERO</code> crea una variable llamada
+              "edad" para guardar números enteros.
+            </li>
+            <li>
+              <code>nombre <- "Carlos"</code> asigna el texto "Carlos" a la
+              variable "nombre".
+            </li>
+            <li>
+              <code>ESCRIBIR "Edad: ", edad</code> muestra el valor almacenado
+              en la variable "edad".
+            </li>
+          </ul>
+
+          <div class="highlight-box">
+            <h3>🎯 Tu Próximo Paso</h3>
+            <p>
+              Practica identificando qué tipo de dato usarías para diferentes
+              tipos de información. Por ejemplo, ¿qué tipo de dato usarías para
+              almacenar un precio, un número de teléfono o si una luz está
+              encendida o apagada?
+            </p>
+          </div>
+        </div>
+        <!-- Fin Contenido de la Lección 3 -->
+
+        <div class="next-section">
+          <h3 style="color: #333; margin-bottom: 1rem">
+            ¡Has llegado al final de este módulo por ahora!
+          </h3>
+          <button class="btn-primary" onclick="nextLesson()">
+            Finalizar Módulo →
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="../../js/main.js"></script>
+  </body>
+</html>
